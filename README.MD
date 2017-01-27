@@ -3,7 +3,7 @@
 This is an asset in development for having a pre made main menu, fully customizable, which allows to load scenes, change the font, color and text of every text and the action it does.
 
 
-![Inspector Image](img/inspector.png)
+![Inspector Image](Img/inspector.png)
 
 ### Title Text
 
