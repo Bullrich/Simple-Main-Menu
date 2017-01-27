@@ -1,17 +1,14 @@
-﻿using UnityEngine;
-using System.Collections;
-// By @JavierBullrich
+﻿// By @JavierBullrich
 
 namespace SimpleMainMenu
 {
-	public class ExampleButton : CustomButton {
-        string exampleString = "Example: ";
+	public class ExampleButton : SimpleMainMenu.CustomButton
+    {
         int exampleInt = 0;
         public override void OnClickAction()
         {
             exampleInt++;
-            buttonText.text = exampleString + exampleInt;
+            buttonText.text = "Example: " + exampleInt;
         }
-
     }
 }

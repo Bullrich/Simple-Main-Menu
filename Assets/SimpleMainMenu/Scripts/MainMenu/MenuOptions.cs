@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 // By @JavierBullrich
 
@@ -27,8 +26,8 @@ namespace SimpleMainMenu
                 case ButtonsSettings.ButtonType.LoadLevel:
                     getOptionButton().onClick.AddListener(delegate () { settings.LoadGame(); });
                     break;
-                case ButtonsSettings.ButtonType.Options:
-                    break;
+                /*case ButtonsSettings.ButtonType.Options:
+                    break;*/
                 case ButtonsSettings.ButtonType.Quit:
                     getOptionButton().onClick.AddListener(delegate () { settings.QuitGame(); });
                     break;

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 // By @JavierBullrich
 
 namespace SimpleMainMenu
@@ -10,7 +9,7 @@ namespace SimpleMainMenu
         public enum ButtonType
         {
             LoadLevel,
-            Options,
+            //Options,
             Quit,
             Custom
         }
