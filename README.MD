@@ -21,12 +21,12 @@ Here goes the inputs for using keys.
 - Vertical Axis Name: Which axis move the menu.
 - Return key: Which button goes back.
 
-###Menu interaction
+### Menu interaction
 
 - Arrow Sprite: If an image is selected, the menu will use an arrow for the selected option.
 - Selected Color: If the is no image selected in Arrow Sprite it will use this color to highlight selection.
 
-###Buttons options
+### Buttons options
 
 * Can be clicked: If deselected the buttons won't react to mouse selection, and the cursor will be hidden.
 * Buttons
